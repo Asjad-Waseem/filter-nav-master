@@ -1,0 +1,102 @@
+.main-filter-container {
+    background-color: #593B59;
+    margin-top: 20px;
+    border-radius: 200px;
+    padding: 8px 20px 30px 20px;
+    width: auto;
+}
+.main__row {
+    align-items: center;
+}
+.drp__dwn__menu {
+    padding: 0px;
+    box-shadow: none;
+}
+.card__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lower-text {
+    position: absolute;
+    left:55px;
+    top: 42px;
+    font-size: 12px;
+    color: rgb(32, 29, 29);
+    font-weight: 500;
+}
+.check-box-div{
+    float: right;
+
+}
+
+.check-box{
+    width: 22px;
+    height: 22px;
+}
+
+.col-drop-down button:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+}
+.col-drop-down .btn:hover{
+    color: gainsboro ;
+
+}
+.col-drop-down .btn {
+    color: gainsboro ;
+}
+.icon{
+    font-size: 28px;
+    margin-right: 15px;
+}
+.col-drop-down .dropdown-menu {
+    -webkit-box-shadow: 0px 6px 12px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0px 6px 12px rgba(0,0,0,0.301961);
+    box-shadow: 0px 6px 12px rgb(0 0 0 / 30%);
+    border: 1px solid #dadbde;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    width: 100%;
+    position: absolute !important;
+    top: 28px !important;
+    left: 28px !important;
+
+}
+.col-drop-down .dropdown-menu.show {
+    border: none;
+}
+.checkbox-list{
+    padding: 5px 10px ;
+    margin: 0px;
+    
+}
+.each-checkbox{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans",sans-serif;
+    color: #1f1f1f;
+}
+.discover-btn{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    list-style: none;
+    font-family: "Open Sans",sans-serif;
+    color: rgb(187, 187, 187);
+    border: 2px solid gray;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 5px 20px ;
+    font-weight: 600;
+}
